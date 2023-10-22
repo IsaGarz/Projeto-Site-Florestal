@@ -1,0 +1,29 @@
+*{
+    list-style: none;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+
+main{
+    padding: 0px 40px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+
+}
+ul{
+    display: flex;
+
+
+}
+
+li{
+    margin-right: 50px;
+}
