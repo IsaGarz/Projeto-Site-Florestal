@@ -22,15 +22,16 @@ nav{
     
     display: flex;
     justify-content: space-between;
-    background-color: rgb(197, 65, 158);
+    background-color: rgba(197, 65, 157, 0.589);
+    border-radius: 20px;
     padding: 20px;
     margin-bottom:40px;
 
 }
 
 
-body{
-    background-color: rgba(255, 192, 203, 0.411);
+.conteudo{
+    background-color: rgba(255, 192, 203, 0.219);
     margin: 40px 40px 10px 40px;
 
 }
@@ -43,6 +44,7 @@ body{
 .fotoPerfil{
     width: 350px;
     height: 350px;
+    /*border-radius: 50%*/
 }
 
 .carrossel-imagens{
@@ -60,7 +62,8 @@ body{
 
 
 footer{
-    background-color: rgb(197, 65, 158);
+    background-color: rgba(197, 65, 157, 0.589);
+    border-radius: 20px;
     padding: 20px;
 }
 .social-link{
