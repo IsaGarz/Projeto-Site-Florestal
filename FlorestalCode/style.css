@@ -107,7 +107,7 @@ footer{
   }
   
   nav{
-    
+    padding: 0;
     display: block;
     justify-content: space-between;
     border-radius: 0;
@@ -117,16 +117,21 @@ footer{
   }
    
   ul{
-    margin: 0;
-    padding: 0;
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: blue;
+    height: 100%;
     width:100%;
-    justify-content: space-around;
+    justify-content:space-between;
     
   }
   li{
-    margin-block: 2px;
+    /*border: 10% solid black;*/
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    height: 33%;
+    
   }
   
   img{
