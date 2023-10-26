@@ -89,3 +89,16 @@ footer{
 .social-link{
     margin-left: 100px;
 }
+
+/*Mobile*/
+@media (max-width: 500px) {
+  .apresentacao{
+    display: block;
+  }
+  
+  conteudo{
+    background-color: red;
+    margin: 0 0 0 0;
+
+  }
+}
