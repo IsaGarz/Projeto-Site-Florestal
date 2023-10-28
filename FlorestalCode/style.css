@@ -4,11 +4,11 @@
     padding: 0;
 }
 
-ul{
+.container-links-nav{
     display: flex;
 }
 
-li{
+.link-nav{
     margin-right: 50px;
 }
 
@@ -18,14 +18,14 @@ li{
     width: 100px;
 }
 
-nav{
-    
+.links-paginas{
     display: flex;
     justify-content: space-between;
     background-color: rgba(197, 65, 157, 0.589);
     border-radius: 20px;
     padding: 20px;
     margin-bottom:40px;
+    align-items: center;
 
 }
 
@@ -51,7 +51,7 @@ nav{
     width: 350px;
     height: 350px;
     overflow: hidden;
-    position: relative;
+
 }
 
 .fotoPerfil{
@@ -71,7 +71,7 @@ nav{
 }
 
 
-footer{
+.rodape{
     background-color: rgba(197, 65, 157, 0.589);
     border-radius: 20px;
     padding: 20px;
@@ -82,12 +82,23 @@ footer{
 
 .footer-content{
     display:flex;
-    justify-content: center;
+    justify-content:right;
+    align-items: center;
 
 }
 
 .social-link{
     margin-left: 100px;
+}
+
+.margem-links{
+  height: 50%;
+  border-color:black;
+}
+
+.botao-mobile {
+  display: none;
+  
 }
 
 /*Mobile*/
@@ -106,36 +117,70 @@ footer{
 
   }
   
-  nav{
+  .links-paginas{
     padding: 0;
-    display: block;
+    display: none;
     justify-content: space-between;
     border-radius: 0;
     width: 50%;
     height: 100%;
     position: fixed;
+    background-color: rgb(177, 89, 172);
+    border-radius: 0 0 20px 0;
   }
   
-  ul{
+  .container-links-nav{
     display: flex;
     flex-direction: column;
-    background-color: blue;
     height: 100%;
     width:100%;
-    justify-content:space-between;
+    justify-content:space-around;
+  
     
   }
-  li{
+
+  .logo{
+    display: none;
+  }
+  
+  .link-nav{
     /*border: 10% solid black;*/
     width: 99%;
     margin: 0;
     padding: 0;
+    color: white;
+    text-align: center;
     
   }
   
-  img{
-    width: 20px;
+
+
+  .margem-links{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:white;
+    
   }
 
-  
+  .botao-mobile {
+    display: flex;
+    position: fixed;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 0 10px 0;
+
+  }
+
+
 }

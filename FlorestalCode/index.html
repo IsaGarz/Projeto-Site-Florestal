@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body class="conteudo">
     <header>
-        <nav>
-            <img src="../../imgs/logo.png" alt="" class="logo">
-            <ul>
-                <li>Pesquisas</li>
-                <li>Prêmios e títulos</li>
-                <li>Trabalhos e artigos</li>
+        <nav class="links-paginas">
+            <img src="../FlorestalCode/imagens/logo.png" alt="" class="logo">
+            <ul class="container-links-nav">
+                <li class="link-nav">Pesquisas</li>
+                <li class="link-nav"><hr class="margem-links"></li>
+                <li class="link-nav">Prêmios e títulos</li>
+                <li class="link-nav"><hr class="margem-links"></li>
+                <li class="link-nav">Trabalhos e artigos</li>
             </ul>
         </nav>
+        <button class="botao-mobile" onclick="mostrarLinks()">⋮</button>
 
 
     </header>
@@ -26,7 +30,7 @@
             <div class="carrossel-container">
                 <div class="carrossel-imagens">
                     <img src="../FlorestalCode/imagens/perfil1.jpg" alt="" class="fotoPerfil">
-                    <img src="..//FlorestalCode/imagens/perfil2.jpg" alt="" class="fotoPerfil">
+                    <img src="../FlorestalCode/imagens/perfil2.jpg" alt="" class="fotoPerfil">
                 </div>
             </div>
             
@@ -79,7 +83,7 @@
             </section>
     </main>
 
-    <footer>
+    <footer class="rodape">
         <section class="footer-content">
             <section>
                 <p>
@@ -88,19 +92,19 @@
             </section>
 
             <section class="links-footer">
-                <a href="#"><img src="../../imgs/lattes.png" class="social-link" alt></a>
-                <a href="#"><img src="../../imgs/linkedin.png" class="social-link" alt></a>
-                <a href="#"><img src="../../imgs/unicentro.png" class="social-link" alt></a>
+                <a href="#"><img src="../FlorestalCode/imagens/lattes.png" class="social-link" alt></a>
+                <a href="#"><img src="../FlorestalCode/imagens/linkedin.png" class="social-link" alt></a>
+                <a href="#"><img src="../FlorestalCode/imagens/unicentro.png" class="social-link" alt></a>
                 
             </section>
         </section>
-        <details>
-            Endereço: Universidade Estadual do Centro-Oeste, Departamento de Engenharia Florestal. PR 153 Km 7,  
-            Riozinho, 84500000 - Irati, PR - Brasil Contato: (42) 34213088 
-        </details>
+
 
     </footer>
-
-
+            <details>
+            Endereço: Universidade Estadual do Centro-Oeste, Departamento de Engenharia Florestal. PR 153 Km 7,  
+            Riozinho, 84500000 - Irati, PR - Brasil Contato: (42) 34213088 
+            </details>
+            <script src="code.js"></script>
 </body>
 </html>
