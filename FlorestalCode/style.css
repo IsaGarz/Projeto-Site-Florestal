@@ -115,7 +115,7 @@ footer{
     height: 100%;
     position: fixed;
   }
-   
+  
   ul{
     display: flex;
     flex-direction: column;
@@ -136,4 +136,6 @@ footer{
   img{
     width: 20px;
   }
+
+  
 }
