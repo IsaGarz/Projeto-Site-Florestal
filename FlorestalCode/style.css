@@ -4,11 +4,15 @@
     padding: 0;
 }
 
+.conteudo{
+    margin: 40px 40px 10px 40px;
+
+}
 .links-paginas{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(255, 35, 134);
-  border-radius: 20px;
+  background-image: linear-gradient(rgb(255, 35, 134),rgb(192, 79, 196),rgb(110, 60, 248));
+  border-radius: 20px 20px 0px 0px;
   padding: 20px;
   margin-bottom:40px;
   align-items: center;
@@ -34,15 +38,6 @@
     width: 10%;
 }
 
-
-
-
-.conteudo{
-  /*background-color: rgba(41, 40, 41, 0.918);*/
-  background-image:white;
-    margin: 40px 40px 10px 40px;
-
-}
 
 .apresentacao{
     display: flex;

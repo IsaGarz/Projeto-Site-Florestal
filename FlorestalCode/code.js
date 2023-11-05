@@ -14,12 +14,5 @@ function mostrarLinks(classe) {
 
 
     const estado= links.style.display;
-    links.style.display = estado === "none" ? "block" : "none";
-
-
-
-
-
-
-    
+    links.style.display = estado === "none" ? "block" : "none"; 
 }
