@@ -2,17 +2,22 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.conteudo{
-    margin: 40px 40px 10px 40px;
+body{
+    margin: auto;
+    background-color: rgb(154, 154, 154);
 
+}
+
+header{
+  margin-top: 0px;
 }
 .links-paginas{
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(rgb(255, 35, 134),rgb(192, 79, 196),rgb(110, 60, 248));
-  border-radius: 20px 20px 0px 0px;
+  background: white;
   padding: 20px;
   margin-bottom:40px;
   align-items: center;
@@ -26,25 +31,28 @@
     font-size: clamp(0.5em,1em,1.5em);
 }
 
-.link-nav{
+.container-links-nav li{
     margin-right: 5%;
-    color: white;
+
     
 }
-
-/**/
 
 .logo{
     width: 10%;
 }
 
+/**/
+
+.conteudo{
+  margin: 0  40px 0 40px;
+}
 
 .apresentacao{
     display: flex;
     
 }
 
-.carrossel-container{
+.imagem-apresentacao{
     display: flex;
     width: 250px;
 
@@ -56,6 +64,7 @@
     width: 250px;
     height: 250px;
     overflow: hidden;
+    float: inline-end;
 
 
 }
@@ -75,12 +84,11 @@
     margin-left: 10px;
 }
 
-.texto-apresentacao-continucao{
-  margin-top: 2px;
-}
 
 .texto-apresentacao p{
   font-size: clamp(0.5em,1em,1.5em);
+  text-align: justify;
+
 }
 
 .livro-container{
@@ -90,8 +98,7 @@
 
 
 .rodape{
-    background-color: rgb(248, 75, 196);
-    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 .social-link{
@@ -110,7 +117,7 @@
 }
 
 .margem-links{
-
+  display: none;
   height: 50%;
   border-color:rgb(255, 255, 255);
 }
@@ -152,7 +159,7 @@
 }
 
 
-.conteudo{
+body{
   margin: 0 0 0 0;
 
 }
@@ -186,7 +193,7 @@
   display: none;
 }
 
-.link-nav{
+.container-links-nav li{
   /*border: 10% solid black;*/
   width: 99%;
   margin: 0;
@@ -199,6 +206,7 @@
 
 
 .margem-links{
+  display: block;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
