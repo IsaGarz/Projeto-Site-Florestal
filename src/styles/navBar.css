@@ -1,0 +1,129 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-links-nav{
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(255, 35, 134),rgb(192, 79, 196),rgb(110, 60, 248));
+  padding: 20px;
+  margin-bottom:40px;
+  align-items: center;
+
+}
+.links {
+    display: flex;
+    width: 70%;
+    justify-content:space-around;
+    align-items: center;
+    font-size: clamp(0.5em,1em,1.5em);
+}
+
+.links li{
+    margin-right: 5%;
+    color: white;
+    
+}
+
+.logo{
+    width: 10%;
+}
+
+
+.margem-links{
+    display: none;
+    border-color:rgb(255, 255, 255);
+  }
+  
+  .botao-mobile {
+    display: none;
+    
+  }
+
+@keyframes nav-enter {
+    from{ opacity: 0; margin-left: -150px;}
+    to { opacity: 1;margin-left: 0px;}
+  }
+  
+  @keyframes nav-exit {
+    to{ opacity: 1; margin-left: -150px;}
+    from { opacity: 0;margin-left: 0px;}
+  }
+
+/*-------------------Mobile-------------------*/
+@media (max-width: 768px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  
+  .container-links-nav{
+    padding: 0;
+    display: none;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(37, 37, 37, 0.904);
+    border-radius: 0 0 20px 0;
+  
+    animation-name: nav-enter;
+    animation-duration: 2s;
+  }
+  
+  .links{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    justify-content:space-around;
+  
+    
+  }
+  
+  .links li{
+    /*border: 10% solid black;*/
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .logo{
+    display: none;
+  }
+  
+  
+  .margem-links{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:white;
+    
+  }
+  
+  .botao-mobile {
+    display: flex;
+    position: fixed;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(248, 75, 196);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 0 10px 0;
+  
+  }
+  }

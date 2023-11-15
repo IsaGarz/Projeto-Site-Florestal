@@ -1,5 +1,6 @@
 const links = document.querySelector(".links-paginas");
 const cor = links.style.getPropertyValue("display");
+
 if(cor==style.display("flex")){
     console.log("Oi");
 }else{
